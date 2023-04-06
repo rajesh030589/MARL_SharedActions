@@ -1,0 +1,31 @@
+
+function Q = EstimateQ(p, q, R_m, V_m, d)
+
+
+Mf = length(Pf);
+
+Q = zeros(2, 2, 2, 2);
+
+for s_m = [0 1]
+    for af_m = [0 1]
+        for s_n = [0 1]
+            for af_n = [0 1]
+                for b = 1:B
+                    w1 = binornd(1,p);
+                    w2 = binornd(1,q);
+                    
+                Q(s_m+1, af_m +1, s_n+1, af_n+1) = Q(s_m+1, af_m +1, s_n+1, af_n+1) +...
+                    R_m(s_m+1, s_n + 1, af_m+1, af_n+1) +...
+                    d*(s_m*t_01 +(1-s_m)*t_00)*V_m(1, af_m+1 + af_n+1) +...
+                    d*(s_m*t_11 +(1-s_m)*t_10)*V_m(2, af_m+1 + af_n+1);
+                
+                Q(s_m+1, af_m +1, s_n+1, af_n+1) = R_m(s_m+1, s_n + 1, af_m+1, af_n+1) +...
+                    d*(s_m*t_01 +(1-s_m)*t_00)*V_m(1, af_m+1 + af_n+1) +...
+                    d*(s_m*t_11 +(1-s_m)*t_10)*V_m(2, af_m+1 + af_n+1);
+            end
+        end
+    end
+end
+                
+
+end

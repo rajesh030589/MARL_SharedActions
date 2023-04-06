@@ -1,0 +1,2500 @@
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  49  =  0.8652433521339273 0.05
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.3902659146429075 0.9294426399503123  =  -0.5066749439387324
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.8652433521339273 0.05  is  [-0.48201351]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 3 9 49  is  -0.7544879599837052
+The value added 0 3 9 49  is  [-0.94048711]
+The TD Error 0 3 9 49  is  [0.18599915]
+The value of updated Q at  0 3 9 49  is  -0.8474875333968297
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  45  =  0.2668445809832591 0.875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.8652433521339273 0.05  =  -1.2539728043259362
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.2668445809832591 0.875  is  [-1.05863503]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 8 0 45  is  -1.4148260277684392
+The value added 1 8 0 45  is  [-2.20674433]
+The TD Error 1 8 0 45  is  [0.7919183]
+The value of updated Q at  1 8 0 45  is  -1.810785177402912
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  36  =  0.3416444273770926 0.8531250000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.2668445809832591 0.875  =  -0.4066749439387324
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.3416444273770926 0.8531250000000001  is  [-0.95005627]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 2 8 36  is  -0.5106177885510359
+The value added 2 2 8 36  is  [-1.26172558]
+The TD Error 2 2 8 36  is  [0.75110779]
+The value of updated Q at  2 2 8 36  is  -0.8861716856313832
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  30  =  0.875 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.3416444273770926 0.8531250000000001  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.875 0.25  is  [-1.00765596]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 3 8 30  is  -0.38456747163879185
+The value added 3 3 8 30  is  [-1.04406706]
+The TD Error 3 3 8 30  is  [0.65949959]
+The value of updated Q at  3 3 8 30  is  -0.7143172661939334
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.265625 0.34375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.875 0.25  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.265625 0.34375  is  [-0.65266454]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 8 2 0  is  -0.9675278401005276
+The value added 4 8 2 0  is  [-0.67457478]
+The TD Error 4 8 2 0  is  [-0.29295306]
+The value of updated Q at  4 8 2 0  is  -0.8210513089637325
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  69  =  0.07500000000000001 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.265625 0.34375  =  -1.403972804325936
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.07500000000000001 0.07500000000000001  is  [-0.16937828]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 2 3 69  is  -1.358562163558317
+The value added 5 2 3 69  is  [-1.55641326]
+The TD Error 5 2 3 69  is  [0.1978511]
+The value of updated Q at  5 2 3 69  is  -1.4574877117483667
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36562500000000003 0.36562500000000003
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.07500000000000001 0.07500000000000001  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36562500000000003 0.36562500000000003  is  [-0.39435653]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 0 0 0  is  -1.639307707977259
+The value added 6 0 0 0  is  [-1.55889368]
+The TD Error 6 0 0 0  is  [-0.08041403]
+The value of updated Q at  6 0 0 0  is  -1.59910069337537
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  ,  56  =  0.05 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief  0.36562500000000003 0.36562500000000003  =  -0.28717669357238895
+Future state value at e_gamma:  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief:  0.05 0.07500000000000001  is  [-0.28054609]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 3 3 56  is  -1.1711511718312426
+The value added 7 3 3 56  is  [-0.53966817]
+The TD Error 7 3 3 56  is  [-0.631483]
+The value of updated Q at  7 3 3 56  is  -0.8554096727703739
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  ,  16  =  0.07500000000000001 0.37500000000000006
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief  0.05 0.07500000000000001  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief:  0.07500000000000001 0.37500000000000006  is  [-0.24252782]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 0 0 16  is  -1.0675286847818628
+The value added 8 0 0 16  is  [-1.52224784]
+The TD Error 8 0 0 16  is  [0.45471916]
+The value of updated Q at  8 0 0 16  is  -1.2948882637588408
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  ,  15  =  0.07500000000000001 0.375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief  0.07500000000000001 0.37500000000000006  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief:  0.07500000000000001 0.375  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 0 3 15  is  -0.11858834678619447
+The value added 9 0 3 15  is  [-1.3039728]
+The TD Error 9 0 3 15  is  [1.18538446]
+The value of updated Q at  9 0 3 15  is  -0.7112805755560653
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  4  =  0.8613830474080572 0.36994891269527586
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.5446781036777164 0.04040869843779282  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.8613830474080572 0.36994891269527586  is  [-0.64253502]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 5 0 4  is  -0.858086718240114
+The value added 0 5 0 4  is  [-0.71545821]
+The TD Error 0 5 0 4  is  [-0.14262851]
+The value of updated Q at  0 5 0 4  is  -0.7867724649500443
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.26732711907399287 0.32875638591309053
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.8613830474080572 0.36994891269527586  =  -0.3566749439387324
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.26732711907399287 0.32875638591309053  is  [-1.18874189]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 8 3 0  is  -1.3420253309086307
+The value added 1 8 3 0  is  [-1.42654265]
+The TD Error 1 8 3 0  is  [0.08451732]
+The value of updated Q at  1 8 3 0  is  -1.3842839900260389
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  35  =  0.06831682202315019 0.8749999999999999
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.26732711907399287 0.32875638591309053  =  -1.3539728043259363
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.06831682202315019 0.8749999999999999  is  [-0.40410666]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 2 3 35  is  -0.8440115635154721
+The value added 2 2 3 35  is  [-1.7176688]
+The TD Error 2 2 3 35  is  [0.87365724]
+The value of updated Q at  2 2 3 35  is  -1.2808401818805557
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  ,  58  =  0.8732920794494213 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief  0.06831682202315019 0.8749999999999999  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief:  0.8732920794494213 0.25  is  [-0.75219959]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 0 8 58  is  -0.9953781255011903
+The value added 3 0 8 58  is  [-0.81415633]
+The TD Error 3 0 8 58  is  [-0.1812218]
+The value of updated Q at  3 0 8 58  is  -0.9047672268013962
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.2658384900688223 0.34375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.8732920794494213 0.25  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.2658384900688223 0.34375  is  [-1.2987804]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 8 2 0  is  -1.1494612524779715
+The value added 4 8 2 0  is  [-1.25607905]
+The TD Error 4 8 2 0  is  [0.1066178]
+The value of updated Q at  4 8 2 0  is  -1.2027701531341397
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  71  =  0.06835403774827944 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.2658384900688223 0.34375  =  -1.403972804325936
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.06835403774827944 0.07500000000000001  is  [-0.20344252]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 2 3 71  is  0.0
+The value added 5 2 3 71  is  [-1.58707108]
+The TD Error 5 2 3 71  is  [1.58707108]
+The value of updated Q at  5 2 3 71  is  -0.7935355378239342
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.3664557452814651 0.36562500000000003
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.06835403774827944 0.07500000000000001  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.3664557452814651 0.36562500000000003  is  [-0.35865302]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 0 0 0  is  -1.6267015977045207
+The value added 6 0 0 0  is  [-1.52676052]
+The TD Error 6 0 0 0  is  [-0.09994107]
+The value of updated Q at  6 0 0 0  is  -1.5767310612959768
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  42  =  0.07500000000000001 0.8658593749999999
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.3664557452814651 0.36562500000000003  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.07500000000000001 0.8658593749999999  is  [-0.09434027]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 3 3 42  is  -0.6836783289681342
+The value added 7 3 3 42  is  [-0.32208294]
+The TD Error 7 3 3 42  is  [-0.36159539]
+The value of updated Q at  7 3 3 42  is  -0.5028806332459399
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  28  =  0.37500000000000006 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.07500000000000001 0.8658593749999999  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.37500000000000006 0.25  is  [-0.39680182]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 0 8 28  is  -0.5208962046463945
+The value added 8 0 8 28  is  [-0.44429833]
+The TD Error 8 0 8 28  is  [-0.07659787]
+The value of updated Q at  8 0 8 28  is  -0.4825972683786067
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  27  =  0.328125 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.37500000000000006 0.25  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.328125 0.25  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 3 2 27  is  -1.0297499902113718
+The value added 9 3 2 27  is  [-0.08717669]
+The TD Error 9 3 2 27  is  [-0.9425733]
+The value of updated Q at  9 3 2 27  is  -0.5584633418918803
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  26  =  0.05836937922951448 0.05
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.6652248308194209 0.3446195931546254  =  -0.28717669357238895
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.05836937922951448 0.05  is  [-0.2881504]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 6 3 26  is  -1.0626179437610388
+The value added 0 6 3 26  is  [-0.54651206]
+The TD Error 0 6 3 26  is  [-0.51610589]
+The value of updated Q at  0 6 3 26  is  -0.8045650002853565
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.3677038275963107 0.36874999999999997
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.05836937922951448 0.05  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.3677038275963107 0.36874999999999997  is  [-0.44965439]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 0 0 0  is  -1.3584359736935432
+The value added 1 0 0 0  is  [-1.60866175]
+The TD Error 1 0 0 0  is  [0.25022578]
+The value of updated Q at  1 0 0 0  is  -1.4835488631750502
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  42  =  0.07500000000000001 0.8657812500000002
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.3677038275963107 0.36874999999999997  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.07500000000000001 0.8657812500000002  is  [-0.28531614]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 3 3 42  is  -1.283218538406215
+The value added 2 3 3 42  is  [-0.49396122]
+The TD Error 2 3 3 42  is  [-0.78925732]
+The value of updated Q at  2 3 3 42  is  -0.8885898787125657
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36562500000000003 0.26677734374999995
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.07500000000000001 0.8657812500000002  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36562500000000003 0.26677734374999995  is  [-0.97176079]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 0 8 0  is  -0.9175047706265841
+The value added 3 0 8 0  is  [-0.9617614]
+The TD Error 3 0 8 0  is  [0.04425663]
+The value of updated Q at  3 0 8 0  is  -0.939633085605345
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  29  =  0.05 0.8750000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.36562500000000003 0.26677734374999995  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.05 0.8750000000000001  is  [-0.96405348]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 3 2 29  is  -1.2786219743936895
+The value added 4 3 2 29  is  [-1.10482483]
+The TD Error 4 3 2 29  is  [-0.17379715]
+The value of updated Q at  4 3 2 29  is  -1.1917234015169917
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36874999999999997 0.265625
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.05 0.8750000000000001  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36874999999999997 0.265625  is  [-0.75494561]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 0 8 0  is  -1.6462330097891598
+The value added 5 0 8 0  is  [-0.76662775]
+The TD Error 5 0 8 0  is  [-0.87960526]
+The value of updated Q at  5 0 8 0  is  -1.2064303779078178
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  38  =  0.375 0.868359375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.36874999999999997 0.265625  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.375 0.868359375  is  [-0.58234545]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 3 2 38  is  -0.6622293104870551
+The value added 6 3 2 38  is  [-0.6612876]
+The TD Error 6 3 2 38  is  [-0.00094171]
+The value of updated Q at  6 3 2 38  is  -0.6617584534420013
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.328125 0.266455078125
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.375 0.868359375  =  -0.3566749439387324
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.328125 0.266455078125  is  [-0.68730693]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 3 8 0  is  -0.971681340249791
+The value added 7 3 8 0  is  [-0.97525118]
+The TD Error 7 3 8 0  is  [0.00356984]
+The value of updated Q at  7 3 8 0  is  -0.973466258590391
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  5  =  0.875 0.34169311523437496
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.328125 0.266455078125  =  -1.2539728043259362
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.875 0.34169311523437496  is  [-0.18424455]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 3 2 5  is  -0.7147302292474815
+The value added 8 3 2 5  is  [-1.4197929]
+The TD Error 8 3 2 5  is  [0.70506267]
+The value of updated Q at  8 3 2 5  is  -1.0672615630638629
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.265625 0.3322883605957031
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.875 0.34169311523437496  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.265625 0.3322883605957031  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 8 3 0  is  -0.21475712836709432
+The value added 9 8 3 0  is  [-0.08717669]
+The TD Error 9 8 3 0  is  [-0.12758043]
+The value of updated Q at  9 8 3 0  is  -0.15096691096974163
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.2623328077858867 0.3209787504410504
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.9013375377129064 0.4321699964715965  =  -0.3566749439387324
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.2623328077858867 0.3209787504410504  is  [-1.20800022]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 9 4 0  is  -1.6523871601444895
+The value added 0 9 4 0  is  [-1.44387515]
+The TD Error 0 9 4 0  is  [-0.20851201]
+The value of updated Q at  0 9 4 0  is  -1.5481311532453828
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  53  =  0.06844167980535285 0.05000000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.2623328077858867 0.3209787504410504  =  -0.28717669357238895
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.06844167980535285 0.05000000000000001  is  [-0.31668877]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 2 3 53  is  -0.8389413145989902
+The value added 1 2 3 53  is  [-0.57219659]
+The TD Error 1 2 3 53  is  [-0.26674473]
+The value of updated Q at  1 2 3 53  is  -0.705568950137853
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.3664447900243309 0.36874999999999997
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.06844167980535285 0.05000000000000001  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.3664447900243309 0.36874999999999997  is  [-0.48158698]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 0 0 0  is  -1.5706663384321562
+The value added 2 0 0 0  is  [-1.63740109]
+The TD Error 2 0 0 0  is  [0.06673475]
+The value of updated Q at  2 0 0 0  is  -1.6040337120033472
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  42  =  0.25 0.8657812500000002
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.3664447900243309 0.36874999999999997  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.25 0.8657812500000002  is  [-0.95681071]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 3 3 42  is  -1.0018928297994258
+The value added 3 3 3 42  is  [-0.99830633]
+The TD Error 3 3 3 42  is  [-0.0035865]
+The value of updated Q at  3 3 3 42  is  -1.000099581616047
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.34375 0.26677734374999995
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.25 0.8657812500000002  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.34375 0.26677734374999995  is  [-1.04857027]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 2 8 0  is  -1.3883820825999726
+The value added 4 2 8 0  is  [-1.03088994]
+The TD Error 4 2 8 0  is  [-0.35749215]
+The value of updated Q at  4 2 8 0  is  -1.2096360093612333
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  19  =  0.8500000000000001 0.05
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.34375 0.26677734374999995  =  -0.5066749439387324
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.8500000000000001 0.05  is  [-0.27202759]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 3 2 19  is  -0.6861528349092867
+The value added 5 3 2 19  is  [-0.75149978]
+The TD Error 5 3 2 19  is  [0.06534694]
+The value of updated Q at  5 3 2 19  is  -0.7188263066587722
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  ,  11  =  0.05000000000000001 0.37499999999999994
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief  0.8500000000000001 0.05  =  -0.18717669357238892
+Future state value at e_gamma:  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief:  0.05000000000000001 0.37499999999999994  is  [-0.27132967]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 8 0 11  is  -0.24409913336793365
+The value added 6 8 0 11  is  [-0.4313734]
+The TD Error 6 8 0 11  is  [0.18727426]
+The value of updated Q at  6 8 0 11  is  -0.33773626500124043
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  1  =  0.37499999999999994 0.328125
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.05000000000000001 0.37499999999999994  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.37499999999999994 0.328125  is  [-0.77548591]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 0 3 1  is  -0.1973213954933729
+The value added 7 0 3 1  is  [-1.90191012]
+The TD Error 7 0 3 1  is  [1.70458872]
+The value of updated Q at  7 0 3 1  is  -1.0496157572646156
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  46  =  0.375 0.875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.37499999999999994 0.328125  =  -1.2539728043259362
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.375 0.875  is  [-0.16422199]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 3 3 46  is  -0.49685553152605355
+The value added 8 3 3 46  is  [-1.4017726]
+The TD Error 8 3 3 46  is  [0.90491707]
+The value of updated Q at  8 3 3 46  is  -0.9493140651356871
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  ,  60  =  0.07500000000000001 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief  0.375 0.875  =  -0.18717669357238892
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief:  0.07500000000000001 0.25  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 3 8 60  is  -0.18275708277087754
+The value added 9 3 8 60  is  [-0.18717669]
+The TD Error 9 3 8 60  is  [0.00441961]
+The value of updated Q at  9 3 8 60  is  -0.18496688817163323
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  5  =  0.8750000000000001 0.271319379918915
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.24865624481943405 0.8294449606486799  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.8750000000000001 0.271319379918915  is  [-0.96739552]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 2 8 5  is  0.0
+The value added 0 2 8 5  is  [-1.00783266]
+The TD Error 0 2 8 5  is  [1.00783266]
+The value of updated Q at  0 2 8 5  is  -0.5039163285647821
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.265625 0.3410850775101356
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.8750000000000001 0.271319379918915  =  -0.3566749439387324
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.265625 0.3410850775101356  is  [-0.84064898]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 8 2 0  is  -0.956957974098766
+The value added 1 8 2 0  is  [-1.11325902]
+The TD Error 1 8 2 0  is  [0.15630105]
+The value of updated Q at  1 8 2 0  is  -1.0351084991068105
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  ,  9  =  0.341796875 0.375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief  0.265625 0.3410850775101356  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief:  0.341796875 0.375  is  [-0.84779624]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 2 3 9  is  -0.23305271346630207
+The value added 2 2 3 9  is  [-1.96698942]
+The TD Error 2 2 3 9  is  [1.73393671]
+The value of updated Q at  2 2 3 9  is  -1.1000210662806484
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  37  =  0.375 0.8656250000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.341796875 0.375  =  -1.2539728043259362
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.375 0.8656250000000001  is  [-0.55635436]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 3 3 37  is  -1.5619065625377853
+The value added 3 3 3 37  is  [-1.75469173]
+The TD Error 3 3 3 37  is  [0.19278517]
+The value of updated Q at  3 3 3 37  is  -1.6582991455379588
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.328125 0.266796875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.375 0.8656250000000001  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.328125 0.266796875  is  [-0.95919683]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 3 8 0  is  -1.04152039051168
+The value added 4 3 8 0  is  [-0.95045384]
+The TD Error 4 3 8 0  is  [-0.09106655]
+The value of updated Q at  4 3 8 0  is  -0.9959871176466708
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  63  =  0.333984375 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.328125 0.266796875  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.333984375 0.07500000000000001  is  [-0.4406711]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 3 2 63  is  -1.3498787284158995
+The value added 5 3 2 63  is  [-1.70057679]
+The TD Error 5 3 2 63  is  [0.35069806]
+The value of updated Q at  5 3 2 63  is  -1.5252277592158383
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.333251953125 0.36562500000000003
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.333984375 0.07500000000000001  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.333251953125 0.36562500000000003  is  [-0.3231763]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 3 0 0  is  -0.8642904095897574
+The value added 6 3 0 0  is  [-0.37803536]
+The TD Error 6 3 0 0  is  [-0.48625505]
+The value of updated Q at  6 3 0 0  is  -0.6211628853877325
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  42  =  0.07500000000000001 0.8658593749999999
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.333251953125 0.36562500000000003  =  -1.3539728043259363
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.07500000000000001 0.8658593749999999  is  [-0.16482985]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 3 3 42  is  -0.9787135661095155
+The value added 7 3 3 42  is  [-1.50231967]
+The TD Error 7 3 3 42  is  [0.52360611]
+The value of updated Q at  7 3 3 42  is  -1.2405166198469522
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  32  =  0.875 0.875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.07500000000000001 0.8658593749999999  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.875 0.875  is  [-0.33674573]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 0 8 32  is  -0.5580218300228753
+The value added 8 0 8 32  is  [-1.60704396]
+The TD Error 8 0 8 32  is  [1.04902213]
+The value of updated Q at  8 0 8 32  is  -1.0825328954884252
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  24  =  0.25 0.05
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.875 0.875  =  -0.4566749439387324
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.25 0.05  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 8 8 24  is  -0.35340329465059794
+The value added 9 8 8 24  is  [-0.45667494]
+The TD Error 9 8 8 24  is  [0.10327165]
+The value of updated Q at  9 8 8 24  is  -0.4050391192946652
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  ,  60  =  0.07500000000000001 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief  0.3708252277799968 0.6456745884211822  =  -0.18717669357238892
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief:  0.07500000000000001 0.25  is  [-0.4396485]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 3 6 60  is  -0.8792231480068373
+The value added 0 3 6 60  is  [-0.58286034]
+The TD Error 0 3 6 60  is  [-0.2963628]
+The value of updated Q at  0 3 6 60  is  -0.7310417463310365
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  41  =  0.875 0.86875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.07500000000000001 0.25  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.875 0.86875  is  [-0.72395651]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 0 2 41  is  -1.7539475748366815
+The value added 1 0 2 41  is  [-1.95553366]
+The TD Error 1 0 2 41  is  [0.20158609]
+The value of updated Q at  1 0 2 41  is  -1.8547406182962487
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  66  =  0.25 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.875 0.86875  =  -0.18717669357238892
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.25 0.07500000000000001  is  [-0.36710006]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 8 8 66  is  -0.7929299539748711
+The value added 2 8 8 66  is  [-0.51756675]
+The TD Error 2 8 8 66  is  [-0.2753632]
+The value of updated Q at  2 8 8 66  is  -0.6552483527794065
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.34375 0.36562500000000003
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.25 0.07500000000000001  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.34375 0.36562500000000003  is  [-0.77031975]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 2 0 0  is  -1.4852992482568004
+The value added 3 2 0 0  is  [-0.78046447]
+The TD Error 3 2 0 0  is  [-0.70483478]
+The value of updated Q at  3 2 0 0  is  -1.1328818606082658
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  47  =  0.05 0.8749999999999999
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.34375 0.36562500000000003  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.05 0.8749999999999999  is  [-0.53316683]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 3 3 47  is  -0.6717140192050928
+The value added 4 3 3 47  is  [-0.71702684]
+The TD Error 4 3 3 47  is  [0.04531282]
+The value of updated Q at  4 3 3 47  is  -0.6943704310959844
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36874999999999997 0.265625
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.05 0.8749999999999999  =  -0.3566749439387324
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36874999999999997 0.265625  is  [-0.67330335]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 0 8 0  is  -1.0099238068207252
+The value added 5 0 8 0  is  [-0.96264796]
+The TD Error 5 0 8 0  is  [-0.04727585]
+The value of updated Q at  5 0 8 0  is  -0.9862858839131791
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  35  =  0.06578125000000001 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.36874999999999997 0.265625  =  -0.4566749439387324
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.06578125000000001 0.25  is  [-0.65073528]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 3 2 35  is  -1.0649533326605574
+The value added 6 3 2 35  is  [-1.0423367]
+The TD Error 6 3 2 35  is  [-0.02261664]
+The value of updated Q at  6 3 2 35  is  -1.053645014820469
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  41  =  0.05 0.86875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.06578125000000001 0.25  =  -0.5066749439387324
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.05 0.86875  is  [-0.25886301]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 0 2 41  is  -0.8931772010398917
+The value added 7 0 2 41  is  [-0.73965165]
+The TD Error 7 0 2 41  is  [-0.15352555]
+The value of updated Q at  7 0 2 41  is  -0.8164144251049673
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  70  =  0.07500000000000001 0.8500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.05 0.86875  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.07500000000000001 0.8500000000000001  is  [-0.03826072]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 0 8 70  is  -0.26088838012518817
+The value added 8 0 8 70  is  [-0.27161134]
+The TD Error 8 0 8 70  is  [0.01072296]
+The value of updated Q at  8 0 8 70  is  -0.26624986141693807
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36562500000000003 0.26875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.07500000000000001 0.8500000000000001  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36562500000000003 0.26875  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 0 8 0  is  -0.13905180414394813
+The value added 9 0 8 0  is  [-1.2039728]
+The TD Error 9 0 8 0  is  [1.064921]
+The value of updated Q at  9 0 8 0  is  -0.6715123042349421
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  41  =  0.05 0.8567102307706718
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.9651240510003053 0.7315907691731337  =  -0.5066749439387324
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.05 0.8567102307706718  is  [-0.44251704]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 9 7 41  is  -0.46400906379543366
+The value added 0 9 7 41  is  [-0.90494028]
+The TD Error 0 9 7 41  is  [0.44093121]
+The value of updated Q at  0 9 7 41  is  -0.6844746712775477
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  26  =  0.07375000000000001 0.375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.05 0.8567102307706718  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.07375000000000001 0.375  is  [-0.15948444]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 0 8 26  is  -0.5634433271142049
+The value added 1 0 8 26  is  [-1.4475088]
+The TD Error 1 0 8 26  is  [0.88406547]
+The value of updated Q at  1 0 8 26  is  -1.005476062091746
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36578125 0.328125
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.07375000000000001 0.375  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36578125 0.328125  is  [-0.62138967]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 0 3 0  is  -1.159071733484385
+The value added 2 0 3 0  is  [-1.76322351]
+The TD Error 2 0 3 0  is  [0.60415177]
+The value of updated Q at  2 0 3 0  is  -1.4611476200523703
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  42  =  0.07500000000000001 0.866796875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.36578125 0.328125  =  -1.3539728043259363
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.07500000000000001 0.866796875  is  [-0.35354743]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 3 3 42  is  -0.8877343979596855
+The value added 3 3 3 42  is  [-1.67216549]
+The TD Error 3 3 3 42  is  [0.78443109]
+The value of updated Q at  3 3 3 42  is  -1.2799499437933148
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36562500000000003 0.266650390625
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.07500000000000001 0.866796875  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36562500000000003 0.266650390625  is  [-0.66806721]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 0 8 0  is  -0.8881128610636186
+The value added 4 0 8 0  is  [-0.68843719]
+The TD Error 4 0 8 0  is  [-0.19967568]
+The value of updated Q at  4 0 8 0  is  -0.7882750233527522
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  19  =  0.375 0.37500000000000006
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.36562500000000003 0.266650390625  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.375 0.37500000000000006  is  [-0.37689267]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 3 2 19  is  -1.228908086403432
+The value added 5 3 2 19  is  [-1.54317621]
+The TD Error 5 3 2 19  is  [0.31426812]
+The value of updated Q at  5 3 2 19  is  -1.3860421488927144
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  25  =  0.07500000000000001 0.375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.375 0.37500000000000006  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.07500000000000001 0.375  is  [-0.31811129]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 3 3 25  is  -1.2015300743627675
+The value added 6 3 3 25  is  [-1.59027297]
+The TD Error 6 3 3 25  is  [0.3887429]
+The value of updated Q at  6 3 3 25  is  -1.3959015219669118
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36562500000000003 0.328125
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.07500000000000001 0.375  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36562500000000003 0.328125  is  [-0.72606876]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 0 3 0  is  -1.565819381620701
+The value added 7 0 3 0  is  [-0.74063857]
+The TD Error 7 0 3 0  is  [-0.82518081]
+The value of updated Q at  7 0 3 0  is  -1.1532289773783249
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  67  =  0.8658593749999999 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.36562500000000003 0.328125  =  -1.3539728043259363
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.8658593749999999 0.07500000000000001  is  [-0.05877655]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 3 3 67  is  -1.2098342391260846
+The value added 8 3 3 67  is  [-1.4068717]
+The TD Error 8 3 3 67  is  [0.19703746]
+The value of updated Q at  8 3 3 67  is  -1.308352967190576
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  18  =  0.266767578125 0.37500000000000006
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.8658593749999999 0.07500000000000001  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.266767578125 0.37500000000000006  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 8 0 18  is  0.0
+The value added 9 8 0 18  is  [-0.08717669]
+The TD Error 9 8 0 18  is  [0.08717669]
+The value of updated Q at  9 8 0 18  is  -0.04358834678619446
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  67  =  0.8523509033922028 0.8500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.9059638643118938 0.7516051407791965  =  -0.4566749439387324
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.8523509033922028 0.8500000000000001  is  [-0.45808853]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 9 7 67  is  -0.8009004969715969
+The value added 0 9 7 67  is  [-0.86895462]
+The TD Error 0 9 7 67  is  [0.06805413]
+The value of updated Q at  0 9 7 67  is  -0.8349275595080528
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  50  =  0.875 0.05000000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.8523509033922028 0.8500000000000001  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.875 0.05000000000000001  is  [-0.29666427]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 8 8 50  is  -0.8829542962156135
+The value added 1 8 8 50  is  [-0.50417454]
+The TD Error 1 8 8 50  is  [-0.37877976]
+The value of updated Q at  1 8 8 50  is  -0.6935644169776123
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  21  =  0.25 0.37499999999999994
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.875 0.05000000000000001  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.25 0.37499999999999994  is  [-0.53567698]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 8 0 21  is  -0.430442232128215
+The value added 2 8 0 21  is  [-0.56928597]
+The TD Error 2 8 0 21  is  [0.13884374]
+The value of updated Q at  2 8 0 21  is  -0.49986410288004685
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  ,  72  =  0.34375 0.065625
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  and belief  0.25 0.37499999999999994  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  and belief:  0.34375 0.065625  is  [-0.38108722]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 2 3 72  is  -0.31734467345718864
+The value added 3 2 3 72  is  [-1.6469513]
+The TD Error 3 2 3 72  is  [1.32960663]
+The value of updated Q at  3 2 3 72  is  -0.9821479868391808
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.33203125 0.36679687499999997
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.34375 0.065625  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.33203125 0.36679687499999997  is  [-0.6349455]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 3 0 0  is  -1.6573558013710152
+The value added 4 3 0 0  is  [-0.65862764]
+The TD Error 4 3 0 0  is  [-0.99872816]
+The value of updated Q at  4 3 0 0  is  -1.1579917228128134
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  66  =  0.875 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.33203125 0.36679687499999997  =  -1.3539728043259363
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.875 0.07500000000000001  is  [-0.28064118]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 3 3 66  is  -1.1048423804501462
+The value added 5 3 3 66  is  [-1.60654987]
+The TD Error 5 3 3 66  is  [0.50170749]
+The value of updated Q at  5 3 3 66  is  -1.3556961242452719
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  71  =  0.053125000000000006 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.875 0.07500000000000001  =  -0.28717669357238895
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 0],
+       [1, 1]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.053125000000000006 0.07500000000000001  is  [-0.27566843]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 8 0 71  is  -0.26639421564736987
+The value added 6 8 0 71  is  [-0.53527828]
+The TD Error 6 8 0 71  is  [0.26888406]
+The value of updated Q at  6 8 0 71  is  -0.40083624647744936
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  ,  54  =  0.36835937500000004 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief  0.053125000000000006 0.07500000000000001  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 0],
+       [0, 0],
+       [0, 1]])]  and belief:  0.36835937500000004 0.07500000000000001  is  [-0.17346918]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 0 0 54  is  -0.7109715071543429
+The value added 7 0 0 54  is  [-1.46009506]
+The TD Error 7 0 0 54  is  [0.74912356]
+The value of updated Q at  7 0 0 54  is  -1.0855332855889996
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  39  =  0.25 0.873125
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.36835937500000004 0.07500000000000001  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.25 0.873125  is  [-0.31527957]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 3 0 39  is  -0.12794557888135225
+The value added 8 3 0 39  is  [-0.42092831]
+The TD Error 8 3 0 39  is  [0.29298273]
+The value of updated Q at  8 3 0 39  is  -0.27443694407391805
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.34375 0.265859375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.25 0.873125  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.34375 0.265859375  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 2 8 0  is  -0.9607319524688825
+The value added 9 2 8 0  is  [-0.08717669]
+The TD Error 9 2 8 0  is  [-0.87355526]
+The value of updated Q at  9 2 8 0  is  -0.5239543230206357
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  3  =  0.875 0.3512716910468785
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.058518725057347676 0.18982647162497202  =  -1.2539728043259362
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.875 0.3512716910468785  is  [-0.76421879]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 0 1 3  is  -1.6760444231540415
+The value added 0 0 1 3  is  [-1.94176971]
+The TD Error 0 0 1 3  is  [0.26572529]
+The value of updated Q at  0 0 1 3  is  -1.8089070673471634
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  3  =  0.25 0.3310910386191402
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.875 0.3512716910468785  =  -0.3566749439387324
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.25 0.3310910386191402  is  [-0.93347409]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 8 3 3  is  -0.9847115560559478
+The value added 1 8 3 3  is  [-1.19680162]
+The TD Error 1 8 3 3  is  [0.21209007]
+The value of updated Q at  1 8 3 3  is  -1.0907565892035214
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  19  =  0.375 0.375
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.25 0.3310910386191402  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.375 0.375  is  [-0.40991136]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 2 3 19  is  -1.4844087961682795
+The value added 2 2 3 19  is  [-1.57289303]
+The TD Error 2 2 3 19  is  [0.08848424]
+The value of updated Q at  2 2 3 19  is  -1.5286509139573663
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  42  =  0.07500000000000001 0.8656250000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.375 0.375  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.07500000000000001 0.8656250000000001  is  [-0.29700905]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 3 3 42  is  -0.778711900748784
+The value added 3 3 3 42  is  [-0.50448484]
+The TD Error 3 3 3 42  is  [-0.27422706]
+The value of updated Q at  3 3 3 42  is  -0.6415983706814044
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.36562500000000003 0.266796875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.07500000000000001 0.8656250000000001  =  -1.2039728043259361
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.36562500000000003 0.266796875  is  [-0.64170188]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 0 8 0  is  -0.768687576118692
+The value added 4 0 8 0  is  [-1.7815045]
+The TD Error 4 0 8 0  is  [1.01281692]
+The value of updated Q at  4 0 8 0  is  -1.2750960364957034
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  ,  19  =  0.8500000000000001 0.05
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief  0.36562500000000003 0.266796875  =  -0.5066749439387324
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 1],
+       [0, 0],
+       [1, 0]])]  and belief:  0.8500000000000001 0.05  is  [-0.2028407]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 3 2 19  is  -0.6889714374591399
+The value added 5 3 2 19  is  [-0.68923158]
+The TD Error 5 3 2 19  is  [0.00026014]
+The value of updated Q at  5 3 2 19  is  -0.6891015066823925
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  45  =  0.26875 0.875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.8500000000000001 0.05  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.26875 0.875  is  [-0.74806332]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 8 0 45  is  -1.0003315516125877
+The value added 6 8 0 45  is  [-0.81043368]
+The TD Error 6 8 0 45  is  [-0.18989787]
+The value of updated Q at  6 8 0 45  is  -0.9053826154368849
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.34140624999999997 0.265625
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.26875 0.875  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.34140624999999997 0.265625  is  [-0.72721289]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 2 8 0  is  -1.150902277544671
+The value added 7 2 8 0  is  [-0.74166829]
+The TD Error 7 2 8 0  is  [-0.40923398]
+The value of updated Q at  7 2 8 0  is  -0.9462852858573787
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  31  =  0.8664648437500002 0.875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.34140624999999997 0.265625  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 1],
+       [0, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.8664648437500002 0.875  is  [-0.30713675]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 3 2 31  is  -0.5520376222259791
+The value added 8 3 2 31  is  [-1.58039588]
+The TD Error 8 3 2 31  is  [1.02835826]
+The value of updated Q at  8 3 2 31  is  -1.0662167515887269
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  5  =  0.05 0.265625
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.8664648437500002 0.875  =  -0.4566749439387324
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.05 0.265625  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 8 8 5  is  -0.4397652787943056
+The value added 9 8 8 5  is  [-0.45667494]
+The TD Error 9 8 8 5  is  [0.01690967]
+The value of updated Q at  9 8 8 5  is  -0.448220111366519
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  39  =  0.25 0.8728308407506182
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.6223353385790257 0.08676636997527021  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 1],
+       [0, 0]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.25 0.8728308407506182  is  [-1.11425653]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  0 6 0 39  is  0.0
+The value added 0 6 0 39  is  [-1.14000757]
+The TD Error 0 6 0 39  is  [1.14000757]
+The value of updated Q at  0 6 0 39  is  -0.5700037870603318
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.34375 0.26589614490617275
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.25 0.8728308407506182  =  -0.3566749439387324
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.34375 0.26589614490617275  is  [-0.75583417]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  1 2 8 0  is  -0.8404046197515753
+The value added 1 2 8 0  is  [-1.0369257]
+The TD Error 1 2 8 0  is  [0.19652108]
+The value of updated Q at  1 2 8 0  is  -0.938665157754711
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  ,  77  =  0.875 0.06835259637734568
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  and belief  0.34375 0.26589614490617275  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  and belief:  0.875 0.06835259637734568  is  [-0.18358542]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  2 3 2 77  is  -0.9046399956981879
+The value added 2 3 2 77  is  [-0.40240357]
+The TD Error 2 3 2 77  is  [-0.50223642]
+The value of updated Q at  2 3 2 77  is  -0.6535217850228348
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  ,  45  =  0.265625 0.875
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief  0.875 0.06835259637734568  =  -0.13717669357238893
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[0, 0],
+       [0, 1],
+       [1, 0]])]  and belief:  0.265625 0.875  is  [-0.99254816]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  3 8 0 45  is  -1.1337588294294425
+The value added 3 8 0 45  is  [-1.03047004]
+The TD Error 3 8 0 45  is  [-0.10328879]
+The value of updated Q at  3 8 0 45  is  -1.0821144325144485
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  ,  29  =  0.375 0.25
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief  0.265625 0.875  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[0, 1],
+       [0, 0],
+       [1, 0]]), array([[1, 0],
+       [0, 1],
+       [0, 0]])]  and belief:  0.375 0.25  is  [-0.74455186]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  4 2 8 29  is  0.0
+The value added 4 2 8 29  is  [-0.75727337]
+The TD Error 4 2 8 29  is  [0.75727337]
+The value of updated Q at  4 2 8 29  is  -0.37863668266540185
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  ,  16  =  0.07500000000000001 0.8500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief  0.375 0.25  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[0, 0],
+       [1, 0],
+       [0, 1]]), array([[0, 1],
+       [1, 0],
+       [0, 0]])]  and belief:  0.07500000000000001 0.8500000000000001  is  [-0.29849226]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  5 3 2 16  is  -1.432239988861629
+The value added 5 3 2 16  is  [-0.50581973]
+The TD Error 5 3 2 16  is  [-0.92642026]
+The value of updated Q at  5 3 2 16  is  -0.9690298580789956
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  ,  77  =  0.875 0.053750000000000006
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  and belief  0.07500000000000001 0.8500000000000001  =  -0.23717669357238894
+Future state value at e_gamma:  [array([[0, 0],
+       [0, 1],
+       [1, 0]]), array([[0, 0],
+       [0, 0],
+       [1, 1]])]  and belief:  0.875 0.053750000000000006  is  [-0.36418156]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  6 0 8 77  is  -0.5606455264186807
+The value added 6 0 8 77  is  [-0.5649401]
+The TD Error 6 0 8 77  is  [0.00429457]
+The value of updated Q at  6 0 8 77  is  -0.5627928131356761
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  ,  64  =  0.375 0.07500000000000001
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief  0.875 0.053750000000000006  =  -1.3039728043259362
+Future state value at e_gamma:  [array([[0, 1],
+       [1, 0],
+       [0, 0]]), array([[0, 0],
+       [1, 0],
+       [0, 1]])]  and belief:  0.375 0.07500000000000001  is  [-0.31916351]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  7 8 0 64  is  -0.17689257306961287
+The value added 7 8 0 64  is  [-1.59121997]
+The TD Error 7 8 0 64  is  [1.41432739]
+The value of updated Q at  7 8 0 64  is  -0.8840562700092707
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  ,  0  =  0.328125 0.36562500000000003
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief  0.375 0.07500000000000001  =  -0.08717669357238891
+Future state value at e_gamma:  [array([[1, 1],
+       [0, 0],
+       [0, 0]]), array([[1, 1],
+       [0, 0],
+       [0, 0]])]  and belief:  0.328125 0.36562500000000003  is  [-0.35261782]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  8 3 0 0  is  -1.4896815234764662
+The value added 8 3 0 0  is  [-0.40453273]
+The TD Error 8 3 0 0  is  [-1.08514879]
+The value of updated Q at  8 3 0 0  is  -0.947107126605574
+Step 2: Next Belief Calculation: Particle Filter Module
+=====================================
+Next belief at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  ,  42  =  0.25 0.8658593749999999
+Step 3: Expected Reward: Model
+=====================================
+Expected Reward at gamma  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief  0.328125 0.36562500000000003  =  -0.4066749439387324
+Future state value at e_gamma:  [array([[1, 0],
+       [0, 0],
+       [0, 1]]), array([[0, 0],
+       [1, 1],
+       [0, 0]])]  and belief:  0.25 0.8658593749999999  is  [0.]
+Step 4: Compute the new Q
+==========================
+The value of OLD Q at  9 3 3 42  is  -0.48359356479996235
+The value added 9 3 3 42  is  [-0.40667494]
+The TD Error 9 3 3 42  is  [-0.07691862]
+The value of updated Q at  9 3 3 42  is  -0.4451342543693474
